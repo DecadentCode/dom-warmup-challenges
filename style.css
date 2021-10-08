@@ -1,0 +1,113 @@
+/* Vending Machine */
+h1 {
+  display: flex;
+  justify-content: center;
+}
+.vending-buttons {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.vending-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 6px solid rgb(28, 99, 156);
+  border-radius: 8px;
+  background-color: lightsteelblue;
+  width: 30vw;
+  margin: 20px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* Make Money */
+.make-money-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.coins-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 50vw;
+  padding: 6px;
+  min-width: 34px;
+  min-height: 34px;
+  border: 4px solid green;
+  background-color: lightgreen;
+}
+.make-money-form {
+  display: flex;
+  flex-direction: column;
+  padding: 6px;
+  margin: 12px;
+}
+.money-label {
+  margin: 4px;
+  padding: 4px;
+}
+.money-button {
+  margin: 4px;
+  padding: 4px;
+  font-weight: bold;
+  border: 4px solid slateblue;
+  background-color: lavender;
+}
+.coin {
+  border-radius: 50%;
+  border: 1px solid black;
+  text-align: center;
+}
+.penny {
+  width: 40px;
+  height: 40px;
+  background-color: coral;
+}
+.nickel {
+  width: 50px;
+  height: 50px;
+  background-color: silver;
+}
+.dime {
+  width: 30px;
+  height: 30px;
+  background-color: silver;
+}
+.quarter {
+  width: 65px;
+  height: 65px;
+  background-color: silver;
+}
+
+/* Light Bulb */
+.light-bulb-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+}
+.switch {
+  border: 4px solid red;
+  border-radius: 10px;
+  background-color: orange;
+  font-size: 16px;
+  font-weight: bold;
+  width: 80px;
+}
+.light-bulb {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: darkgray;
+}
+.yellow {
+  background-color: yellow;
+}

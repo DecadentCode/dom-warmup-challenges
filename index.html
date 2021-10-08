@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>DOM Warmup Challenges</title>
+  </head>
+  <body>
+    <section class="vending-machine">
+      <h1 class="total-cost">Total: $0.00<h1/>
+      <div class="vending-buttons">
+        <button data-price='2' class="vending-button lime">
+          LIME COLA
+          <p></p>
+          $2.00
+        </button>
+        <button data-price='3' class="vending-button peanuts">
+          SALTED PEANUTS
+          <p></p>
+          $3.00
+        </button>
+        <button data-price='4' class="vending-button chocolate">
+          CHOCOLATE BAR
+          <p></p>
+          $4.00
+        </button>
+        <button data-price='6' class="vending-button gummies">
+          FRUIT GUMMIES
+          <p></p>
+          $6.00
+        </button>
+      </div>
+    </section>
+    <section class="make-money-section">
+        <form class="make-money-form">
+            <label class="money-label">How many?</label>
+                <input type="number" name="coins-number" id="coins-number">
+            <label class="money-label">Which coin?</label>
+                <select name="coins-type" id="coins-type">
+                    <option value="penny">Penny</option>
+                    <option value="nickel">Nickel</option>
+                    <option value="dime">Dime</option>
+                    <option value="quarter">Quarter</option>
+                </select>
+            <button type="submit" class="money-button">MAKE MONEY!</button>
+        </form>
+        <div class="coins-box"></div>
+      </div>
+    </section>
+    <section class="light-bulb-section">
+      <div class="light-bulb"></div>
+      <div class ="switches-box">
+      <button class ="switch on">On</button>
+      <button class ="switch off">Off</button>
+      <button class ="switch toggle">Toggle</button>
+      <button class ="switch break">End</button>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
